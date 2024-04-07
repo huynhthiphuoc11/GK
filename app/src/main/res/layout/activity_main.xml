@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="KIỂM TRA GIỮA KỲ"
+        android:layout_marginLeft="60dp"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <!-- TextView và ImageView đầu tiên -->
+        <FrameLayout
+            android:id="@+id/framelayout1"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/xanhdatroi">
+
+            <TextView
+                android:layout_marginTop="-10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kiểm tra số nguyên tố"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:src="@drawable/checkimage" />
+
+        </FrameLayout>
+
+        <!-- TextView và ImageView thứ hai -->
+        <FrameLayout
+            android:id="@+id/framelayout2"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/xanhdatroi">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="38dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:src="@drawable/butchi" />
+
+            <TextView
+                android:layout_marginTop="-10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tính phương trình bậc 1"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:layout_marginBottom="5dp" />
+        </FrameLayout>
+
+        <!-- TextView và ImageView thứ ba -->
+        <FrameLayout
+            android:id="@+id/framelayout3"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/xanhdatroi">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Quản lí lớp học"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:src="@drawable/list" />
+
+        </FrameLayout>
+
+    </GridLayout>
+
+</LinearLayout>

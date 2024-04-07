@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/classid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+        android:text="Class ID: "
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/classname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+        android:text="Class Name: "
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/classnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+        android:text="Class of number: "
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/classdepart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+        android:text="Department: "
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>

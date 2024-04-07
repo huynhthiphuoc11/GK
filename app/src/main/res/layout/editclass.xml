@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Sửa Lớp Học"
+            android:textSize="30dp" />
+        <EditText
+            android:layout_marginTop="55dp"
+            android:id="@+id/editTextMaLop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã lớp"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/editTextTenLop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên lớp"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/editTextSiSo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sĩ số"
+            android:inputType="number"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/editTextKhoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Khoa"
+            android:minHeight="48dp"/>
+
+        <Button
+            android:layout_marginTop="55dp"
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu" />
+
+    </LinearLayout>
+
